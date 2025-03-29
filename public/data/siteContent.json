@@ -1,236 +1,252 @@
 {
-    "metadata": {
-        "title": "GitHub Copilot for Azure Resources",
-        "description": "GitHub Copilot for Azure is a GitHub Copilot extension that enables developers to use natural language to learn about Azure features, deploy Azure resources, get information about Azure resources, diagnose and troubleshoot problems with Azure resources, and more.",
-        "themeColors": {
-            "border-color": "#e1e1e1",
-            "light-gray": "#f0f0f0",
-            "light-blue": "#3498db",
-            "dark-blue": "#253A5E",
-            "dark-gray": "#8c8c8c",
-            "green": "#4db42b",
-            "white": "#fff",
-            "black": "#000",
-            "page-margins": "0px 30px 0px 30px"
-        },
-        "randomizeFeatures": true,
-        "pageSize": 5
-    },
-    "navbar": {
-        "imageUrl": "./images/Azure-40px.svg",
-        "imageAlt": "GitHub Copilot for Azure",
-        "links": [
-            {
-                "title": "Download Extension",
-                "url": "https://aka.ms/GetGitHubCopilotForAzure"
-            },
-            {
-                "title": "YouTube",
-                "url": "https://aka.ms/ghcopilot-azure-youtube"
-            },
-            {
-                "title": "GitHub",
-                "url": "https://github.com/microsoft/GitHub-Copilot-for-Azure"
-            }
-        ]
-    },
-    "header": {
-        "title": "GitHub Copilot for Azure Resources",
-        "subtitle": "Streamline your Azure development with GitHub Copilot for Azure"
-    },
-    "items": [
-        {
-            "id": "context-improvements",
-            "title": "New feature: Context improvements",
-            "url": "https://www.youtube.com/watch?v=mQ7TjTAZURk&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=7&t=12s&pp=iAQB",
-            "type": "Video",
-            "cloudCategories": ["Azure"],
-            "services": [],
-            "technologies": [],
-            "description": "This video showcases how GitHub Copilot for Azure now automatically gathers context—like installed extensions and details from your codebase—and uses that information in chat to deliver faster, more accurate responses without extra prompting.",
-            "relatedContentItems": [],
-            "feature": {
-                "imageUrl": "./images/context-improvements.jpg",
-                "url": "https://www.youtube.com/watch?v=mQ7TjTAZURk&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=7&t=12s&pp=iAQB",
-                "title": "New feature: Context improvements",
-                "description": "Chris Harris discusses the new context improvements in GitHub Copilot for Azure."
-            }
-        },
-        {
-            "id": "discover-azure-ai",
-            "title": "Discovering Azure services and AI templates",
-            "url": "https://www.youtube.com/watch?v=OEJwzsWnLog&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=1&pp=iAQB",
-            "type": "Video",
-            "cloudCategories": ["Azure"],
-            "services": ["Azure Container Apps", "Azure AI"],
-            "technologies": ["Containers", "AI"],
-            "description": "GitHub Copilot for Azure in VS Code assists in selecting the appropriate Azure service for deploying containers. It also provides deployment commands and sample projects that integrate Azure AI features for further customization and learning.",
-            "feature": {
-              "imageUrl": "./images/discover-azure-ai.jpg",
-              "url": "https://www.youtube.com/watch?v=OEJwzsWnLog&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=1&pp=iAQB",
-              "title": "Discovering Azure services and AI templates",
-              "description": "Use GitHub Copilot to find container and AI solutions in Azure."
-            }
-        },
-        {
-            "id": "azure-cache-redis",
-            "title": "Add Azure cache for Redis to an app",
-            "url": "https://www.youtube.com/watch?v=RbACdpzW1fs&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=9&t=10s&pp=iAQB ",
-            "type": "Video",
-            "cloudCategories": ["Azure"],
-            "services": ["Azure Cache for Redis"],
-            "technologies": ["Python", "Django"],
-            "description": "A Django app is enhanced with caching using GitHub Copilot for Azure to improve performance. The app is built with azd, which sets up the environment, provisions resources, and deploys the application. Guided by Copilot, Azure Redis Cache is configured, tested for functionality, and the updated code is deployed and verified in the Azure portal.",
-            "feature": {
-                "imageUrl": "./images/azure-cache-redis.jpg",
-                "url": "https://www.youtube.com/watch?v=RbACdpzW1fs&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=9&t=10s&pp=iAQB ",
-                "title": "Add Azure cache for Redis to an app",
-                "description": "Add caching to a Django app using GitHub Copilot for Azure."
-            }
-        },
-        {
-            "id": "genai-token-limits",
-            "title": "Set token limits for your GenAI APIs",
-            "url": "https://www.youtube.com/watch?v=B7w9WW1gaYM&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=10&t=13s&pp=iAQB ",
-            "type": "Video",
-            "cloudCategories": ["Azure"],
-            "services": ["Azure API Management"],
-            "technologies": ["Python", "Django"],
-            "description": "A common challenge in managing GenAI applications is controlling token consumption to prevent unplanned usage. Using GitHub Copilot for Azure, the issue is described in natural language, prompting Copilot to suggest ideas and Azure services to help enforce token limits. A token limit policy is then implemented, the API is redeployed, and the changes are tested to ensure proper functionality.",
-            "feature": {
-                "imageUrl": "./images/genai-token-limits.jpg",
-                "url": "https://www.youtube.com/watch?v=B7w9WW1gaYM&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=10&t=13s&pp=iAQB ",
-                "title": "Set token limits for your GenAI APIs",
-                "description": "Learn how to add an AI token limit policy."
-            }
-        },
-        {
-            "id": "deploy-with-context",
-            "title": "Deploying to Azure with context",
-            "url": "https://www.youtube.com/watch?v=Wp336cdzE4Y&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=2&pp=iAQB",
-            "type": "Video",
-            "cloudCategories": ["Azure"],
-            "services": ["App Service"],
-            "technologies": ["Python", "Django"],
-            "description": "A Django application is deployed to Azure using GitHub Copilot for Azure in VS Code. The extension provides documentation, code changes, and terminal commands based on the project’s context, helping streamline the deployment process.",
-            "feature": {
-              "imageUrl": "./images/deploy-with-context.jpg",
-              "url": "https://www.youtube.com/watch?v=Wp336cdzE4Y&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=2&pp=iAQB",
-              "title": "Deploying to Azure with context",
-              "description": "Deploy a Django app using GitHub Copilot for Azure in VS Code."
-            }
+  "metadata": {
+      "title": "GitHub Copilot for Azure Resources",
+      "description": "GitHub Copilot for Azure is a GitHub Copilot extension that enables developers to use natural language to learn about Azure features, deploy Azure resources, get information about Azure resources, diagnose and troubleshoot problems with Azure resources, and more.",
+      "themeColors": {
+          "border-color": "#e1e1e1",
+          "light-gray": "#f0f0f0",
+          "light-blue": "#3498db",
+          "dark-blue": "#253A5E",
+          "dark-gray": "#8c8c8c",
+          "green": "#4db42b",
+          "white": "#fff",
+          "black": "#000",
+          "page-margins": "0px 30px 0px 30px"
+      },
+      "randomizeFeatures": true,
+      "pageSize": 5
+  },
+  "navbar": {
+      "imageUrl": "./images/Azure-40px.svg",
+      "imageAlt": "GitHub Copilot for Azure",
+      "links": [
+          {
+              "title": "Download Extension",
+              "url": "https://aka.ms/GetGitHubCopilotForAzure"
           },
           {
-            "id": "manage-ai-models",
-            "title": "Understanding and managing your models in Azure AI",
-            "url": "https://www.youtube.com/watch?v=j-yhG0y9ei4&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=3&pp=iAQB",
-            "type": "Video",
-            "cloudCategories": ["Azure"],
-            "services": ["Azure AI"],
-            "technologies": ["AI", "GPT-4o"],
-            "description": "Azure AI Services are explored to manage and deploy models, including checking for existing GPT-4o deployments and deploying a new GPT-4o mini model. GitHub Copilot for Azure supports discovery and deployment steps throughout the process.",
-            "feature": {
-              "imageUrl": "./images/manage-ai-models.jpg",
-              "url": "https://www.youtube.com/watch?v=j-yhG0y9ei4&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=3&pp=iAQB",
-              "title": "Understanding and managing your models in Azure AI",
-              "description": "Explore and deploy GPT-4o models using GitHub Copilot for Azure."
-            }
+              "title": "YouTube",
+              "url": "https://aka.ms/ghcopilot-azure-youtube"
           },
           {
-            "id": "explore-azure-resources",
-            "title": "Exploring your Azure Resources",
-            "url": "https://www.youtube.com/watch?v=tRArkUyTuHU&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=4&pp=iAQB",
-            "type": "Video",
-            "cloudCategories": ["Azure"],
-            "services": ["Azure Resource Graph"],
-            "technologies": [],
-            "description": "GitHub Copilot for Azure is used to explore accessible Azure subscriptions and deployed resource groups via natural language queries. The extension also provides reusable Azure Resource Graph queries for deeper exploration.",
-            "feature": {
-              "imageUrl": "./images/explore-azure-resources.jpg",
-              "url": "https://www.youtube.com/watch?v=tRArkUyTuHU&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=4&pp=iAQB",
-              "title": "Exploring your Azure Resources",
-              "description": "Query and explore Azure resources using GitHub Copilot."
-            }
-          },
-          {
-            "id": "plan-sql-migration",
-            "title": "Planning a SQL Server migration to Azure",
-            "url": "https://www.youtube.com/watch?v=oMuBtlU5BcA&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=5&pp=iAQB",
-            "type": "Video",
-            "cloudCategories": ["Azure"],
-            "services": ["Azure SQL"],
-            "technologies": ["SQL Server"],
-            "description": "A SQL Server migration to Azure is planned with GitHub Copilot for Azure, prioritizing compliance and minimal downtime. Copilot suggests services and tools, generates a migration plan, and assists in post-deployment validation.",
-            "feature": {
-              "imageUrl": "./images/plan-sql-migration.jpg",
-              "url": "https://www.youtube.com/watch?v=oMuBtlU5BcA&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=5&pp=iAQB",
-              "title": "Planning a SQL Server migration to Azure",
-              "description": "Plan and execute a SQL Server migration using Copilot for Azure."
-            }
-          },
-          {
-            "id": "deploy-aks",
-            "title": "Deploying an app to Azure Kubernetes Service",
-            "url": "https://www.youtube.com/watch?v=SCUAdAxS8ZY&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=6&pp=iAQB",
-            "type": "Video",
-            "cloudCategories": ["Azure"],
-            "services": ["Azure Kubernetes Service"],
-            "technologies": ["Kubernetes"],
-            "description": "A containerized application is deployed to Azure Kubernetes Service using GitHub Copilot for Azure. The extension helps create a cluster and deploy an app manifest without leaving the IDE.",
-            "feature": {
-              "imageUrl": "./images/deploy-aks.jpg",
-              "url": "https://www.youtube.com/watch?v=SCUAdAxS8ZY&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=6&pp=iAQB",
-              "title": "Deploying an app to Azure Kubernetes Service",
-              "description": "Create an AKS cluster and deploy a containerized app."
-            }
-          },
-          {
-            "id": "deploy-aks-helm",
-            "title": "Deploy an app to AKS using Helm",
-            "url": "https://www.youtube.com/watch?v=WJz4v0fwqZU&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=8&pp=iAQB",
-            "type": "Video",
-            "cloudCategories": ["Azure"],
-            "services": ["Azure Kubernetes Service"],
-            "technologies": ["Helm", "Apache Superset"],
-            "description": "An application is deployed to Azure Kubernetes Service using Helm with GitHub Copilot for Azure. The process includes installing dependencies, checking pod statuses, configuring a load balancer, and verifying access to the deployed service.",
-            "feature": {
-              "imageUrl": "./images/deploy-aks-helm.jpg",
-              "url": "https://www.youtube.com/watch?v=WJz4v0fwqZU&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=8&pp=iAQB",
-              "title": "Deploy an app to AKS using Helm",
-              "description": "Use Helm and Copilot to deploy Apache Superset to AKS."
-            }
-          },
-          {
-            "id": "openai-functions",
-            "title": "Azure Functions with OpenAI Extension",
-            "url": "https://www.youtube.com/watch?v=BRPxGi--REU&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=11&pp=iAQB0gcJCTgDd0p55Nqk",
-            "type": "Video",
-            "cloudCategories": ["Azure"],
-            "services": ["Azure Functions", "Azure AI"],
-            "technologies": ["OpenAI", "API"],
-            "description": "An API that generates AI-based poems is built using Azure Functions and Azure OpenAI, with GitHub Copilot for Azure guiding the resource creation, configuration, and deployment of a GPT-4 Mini model. The deployment is verified using local settings and Azure credentials.",
-            "feature": {
-              "imageUrl": "./images/openai-functions.jpg",
-              "url": "https://www.youtube.com/watch?v=BRPxGi--REU&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=11&pp=iAQB0gcJCTgDd0p55Nqk",
-              "title": "Azure Functions with OpenAI Extension",
-              "description": "Deploy an AI-powered API with Azure Functions and Copilot."
-            }
-          },
-          {
-            "id": "rag-app-aca",
-            "title": "Deploy an AI RAG app to ACA using AZD",
-            "url": "https://www.youtube.com/watch?v=jX1fa9r5gqE&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=12&pp=iAQB",
-            "type": "Video",
-            "cloudCategories": ["Azure"],
-            "services": ["Azure Container Apps"],
-            "technologies": ["LlamaIndex", "RAG", "Bicep"],
-            "description": "A Retrieval-Augmented Generation (RAG) prototype is deployed to Azure Container Apps using GitHub Copilot for Azure. After identifying a LlamaIndex sample, the app is deployed with AZD, and Copilot helps resolve a configuration issue to ensure successful deployment.",
-            "feature": {
-              "imageUrl": "./images/rag-app-aca.jpg",
-              "url": "https://www.youtube.com/watch?v=jX1fa9r5gqE&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=12&pp=iAQB",
-              "title": "Deploy an AI RAG app to ACA using AZD",
-              "description": "Deploy a LlamaIndex RAG app to ACA using GitHub Copilot."
-            }
+              "title": "GitHub",
+              "url": "https://github.com/microsoft/GitHub-Copilot-for-Azure"
           }
-    ]
+      ]
+  },
+  "header": {
+      "title": "GitHub Copilot for Azure Resources",
+      "subtitle": "Streamline your Azure development with GitHub Copilot for Azure"
+  },
+  "items": [
+      {
+          "id": "context-improvements",
+          "title": "New feature: Context improvements",
+          "url": "https://www.youtube.com/watch?v=mQ7TjTAZURk&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=7&t=12s&pp=iAQB",
+          "type": "Video",
+          "cloudCategories": ["Azure"],
+          "services": [],
+          "technologies": [],
+          "description": "This video showcases how GitHub Copilot for Azure now automatically gathers context—like installed extensions and details from your codebase—and uses that information in chat to deliver faster, more accurate responses without extra prompting.",
+          "relatedContentItems": [],
+          "feature": {
+              "imageUrl": "./images/context-improvements.jpg",
+              "url": "https://www.youtube.com/watch?v=mQ7TjTAZURk&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=7&t=12s&pp=iAQB",
+              "title": "New feature: Context improvements",
+              "description": "Smart context gathering for better responses."
+          }
+      },
+      {
+          "id": "discover-azure-ai",
+          "title": "Discovering Azure services and AI templates",
+          "url": "https://www.youtube.com/watch?v=OEJwzsWnLog&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=1&pp=iAQB",
+          "type": "Video",
+          "cloudCategories": ["Azure"],
+          "services": ["Azure Container Apps", "Azure AI"],
+          "technologies": ["Containers", "AI"],
+          "description": "GitHub Copilot for Azure in VS Code assists in selecting the appropriate Azure service for deploying containers. It also provides deployment commands and sample projects that integrate Azure AI features for further customization and learning.",
+          "feature": {
+            "imageUrl": "./images/discover-azure-ai.jpg",
+            "url": "https://www.youtube.com/watch?v=OEJwzsWnLog&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=1&pp=iAQB",
+            "title": "Discovering Azure services and AI templates",
+            "description": "Find container and AI solutions easily."
+          }
+      },
+      {
+          "id": "azure-cache-redis",
+          "title": "Add Azure cache for Redis to an app",
+          "url": "https://www.youtube.com/watch?v=RbACdpzW1fs&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=9&t=10s&pp=iAQB ",
+          "type": "Video",
+          "cloudCategories": ["Azure"],
+          "services": ["Azure Cache for Redis"],
+          "technologies": ["Python", "Django"],
+          "description": "A Django app is enhanced with caching using GitHub Copilot for Azure to improve performance. The app is built with azd, which sets up the environment, provisions resources, and deploys the application. Guided by Copilot, Azure Redis Cache is configured, tested for functionality, and the updated code is deployed and verified in the Azure portal.",
+          "feature": {
+              "imageUrl": "./images/azure-cache-redis.jpg",
+              "url": "https://www.youtube.com/watch?v=RbACdpzW1fs&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=9&t=10s&pp=iAQB ",
+              "title": "Add Azure cache for Redis to an app",
+              "description": "Enhance Django performance with caching."
+          }
+      },
+      {
+          "id": "genai-token-limits",
+          "title": "Set token limits for your GenAI APIs",
+          "url": "https://www.youtube.com/watch?v=B7w9WW1gaYM&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=10&t=13s&pp=iAQB ",
+          "type": "Video",
+          "cloudCategories": ["Azure"],
+          "services": ["Azure API Management"],
+          "technologies": ["Python", "Django"],
+          "description": "A common challenge in managing GenAI applications is controlling token consumption to prevent unplanned usage. Using GitHub Copilot for Azure, the issue is described in natural language, prompting Copilot to suggest ideas and Azure services to help enforce token limits. A token limit policy is then implemented, the API is redeployed, and the changes are tested to ensure proper functionality.",
+          "feature": {
+              "imageUrl": "./images/genai-token-limits.jpg",
+              "url": "https://www.youtube.com/watch?v=B7w9WW1gaYM&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=10&t=13s&pp=iAQB ",
+              "title": "Set token limits for your GenAI APIs",
+              "description": "Control AI API consumption costs."
+          }
+      },
+      {
+          "id": "deploy-with-context",
+          "title": "Deploying to Azure with context",
+          "url": "https://www.youtube.com/watch?v=Wp336cdzE4Y&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=2&pp=iAQB",
+          "type": "Video",
+          "cloudCategories": ["Azure"],
+          "services": ["App Service"],
+          "technologies": ["Python", "Django"],
+          "description": "A Django application is deployed to Azure using GitHub Copilot for Azure in VS Code. The extension provides documentation, code changes, and terminal commands based on the project's context, helping streamline the deployment process.",
+          "feature": {
+            "imageUrl": "./images/deploy-with-context.jpg",
+            "url": "https://www.youtube.com/watch?v=Wp336cdzE4Y&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=2&pp=iAQB",
+            "title": "Deploying to Azure with context",
+            "description": "Contextual Django deployment assistance."
+          }
+        },
+        {
+          "id": "manage-ai-models",
+          "title": "Understanding and managing your models in Azure AI",
+          "url": "https://www.youtube.com/watch?v=j-yhG0y9ei4&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=3&pp=iAQB",
+          "type": "Video",
+          "cloudCategories": ["Azure"],
+          "services": ["Azure AI"],
+          "technologies": ["AI", "GPT-4o"],
+          "description": "Azure AI Services are explored to manage and deploy models, including checking for existing GPT-4o deployments and deploying a new GPT-4o mini model. GitHub Copilot for Azure supports discovery and deployment steps throughout the process.",
+          "feature": {
+            "imageUrl": "./images/manage-ai-models.jpg",
+            "url": "https://www.youtube.com/watch?v=j-yhG0y9ei4&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=3&pp=iAQB",
+            "title": "Understanding and managing your models in Azure AI",
+            "description": "Deploy GPT models with ease."
+          }
+        },
+        {
+          "id": "explore-azure-resources",
+          "title": "Exploring your Azure Resources",
+          "url": "https://www.youtube.com/watch?v=tRArkUyTuHU&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=4&pp=iAQB",
+          "type": "Video",
+          "cloudCategories": ["Azure"],
+          "services": ["Azure Resource Graph"],
+          "technologies": [],
+          "description": "GitHub Copilot for Azure is used to explore accessible Azure subscriptions and deployed resource groups via natural language queries. The extension also provides reusable Azure Resource Graph queries for deeper exploration.",
+          "feature": {
+            "imageUrl": "./images/explore-azure-resources.jpg",
+            "url": "https://www.youtube.com/watch?v=tRArkUyTuHU&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=4&pp=iAQB",
+            "title": "Exploring your Azure Resources",
+            "description": "Natural language Azure resource queries."
+          }
+        },
+        {
+          "id": "learn-docs",
+          "title": "What is GitHub Copilot for Azure?",
+          "url": "https://learn.microsoft.com/azure/developer/github-copilot-azure/introduction",
+          "type": "Video",
+          "cloudCategories": ["Azure"],
+          "services": ["Microsoft Learn"],
+          "technologies": ["SQL Server"],
+          "description": "Learn more about GitHub Copilot for Azure with the Microsoft Learn documentation.",
+          "feature": {
+            "imageUrl": "./images/learn-docs.jpg",
+            "url": "https://learn.microsoft.com/azure/developer/github-copilot-azure/introduction",
+            "title": "What is GitHub Copilot for Azure?",
+            "description": "Official Microsoft documentation guide."
+          }
+        },
+        {
+          "id": "plan-sql-migration",
+          "title": "Planning a SQL Server migration to Azure",
+          "url": "https://www.youtube.com/watch?v=oMuBtlU5BcA&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=5&pp=iAQB",
+          "type": "Video",
+          "cloudCategories": ["Azure"],
+          "services": ["Azure SQL"],
+          "technologies": ["SQL Server"],
+          "description": "A SQL Server migration to Azure is planned with GitHub Copilot for Azure, prioritizing compliance and minimal downtime. Copilot suggests services and tools, generates a migration plan, and assists in post-deployment validation.",
+          "feature": {
+            "imageUrl": "./images/plan-sql-migration.jpg",
+            "url": "https://www.youtube.com/watch?v=oMuBtlU5BcA&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=5&pp=iAQB",
+            "title": "Planning a SQL Server migration to Azure",
+            "description": "Streamlined SQL migration planning."
+          }
+        },
+        {
+          "id": "deploy-aks",
+          "title": "Deploying an app to Azure Kubernetes Service",
+          "url": "https://www.youtube.com/watch?v=SCUAdAxS8ZY&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=6&pp=iAQB",
+          "type": "Video",
+          "cloudCategories": ["Azure"],
+          "services": ["Azure Kubernetes Service"],
+          "technologies": ["Kubernetes"],
+          "description": "A containerized application is deployed to Azure Kubernetes Service using GitHub Copilot for Azure. The extension helps create a cluster and deploy an app manifest without leaving the IDE.",
+          "feature": {
+            "imageUrl": "./images/deploy-aks.jpg",
+            "url": "https://www.youtube.com/watch?v=SCUAdAxS8ZY&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=6&pp=iAQB",
+            "title": "Deploying an app to Azure Kubernetes Service",
+            "description": "Simplified AKS deployments."
+          }
+        },
+        {
+          "id": "deploy-aks-helm",
+          "title": "Deploy an app to AKS using Helm",
+          "url": "https://www.youtube.com/watch?v=WJz4v0fwqZU&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=8&pp=iAQB",
+          "type": "Video",
+          "cloudCategories": ["Azure"],
+          "services": ["Azure Kubernetes Service"],
+          "technologies": ["Helm", "Apache Superset"],
+          "description": "An application is deployed to Azure Kubernetes Service using Helm with GitHub Copilot for Azure. The process includes installing dependencies, checking pod statuses, configuring a load balancer, and verifying access to the deployed service.",
+          "feature": {
+            "imageUrl": "./images/deploy-aks-helm.jpg",
+            "url": "https://www.youtube.com/watch?v=WJz4v0fwqZU&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=8&pp=iAQB",
+            "title": "Deploy an app to AKS using Helm",
+            "description": "Helm-based AKS deployments made easy."
+          }
+        },
+        {
+          "id": "openai-functions",
+          "title": "Azure Functions with OpenAI Extension",
+          "url": "https://www.youtube.com/watch?v=BRPxGi--REU&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=11&pp=iAQB0gcJCTgDd0p55Nqk",
+          "type": "Video",
+          "cloudCategories": ["Azure"],
+          "services": ["Azure Functions", "Azure AI"],
+          "technologies": ["OpenAI", "API"],
+          "description": "An API that generates AI-based poems is built using Azure Functions and Azure OpenAI, with GitHub Copilot for Azure guiding the resource creation, configuration, and deployment of a GPT-4 Mini model. The deployment is verified using local settings and Azure credentials.",
+          "feature": {
+            "imageUrl": "./images/openai-functions.jpg",
+            "url": "https://www.youtube.com/watch?v=BRPxGi--REU&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=11&pp=iAQB0gcJCTgDd0p55Nqk",
+            "title": "Azure Functions with OpenAI Extension",
+            "description": "Create AI-powered APIs quickly."
+          }
+        },
+        {
+          "id": "rag-app-aca",
+          "title": "Deploy an AI RAG app to ACA using AZD",
+          "url": "https://www.youtube.com/watch?v=jX1fa9r5gqE&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=12&pp=iAQB",
+          "type": "Video",
+          "cloudCategories": ["Azure"],
+          "services": ["Azure Container Apps"],
+          "technologies": ["LlamaIndex", "RAG", "Bicep"],
+          "description": "A Retrieval-Augmented Generation (RAG) prototype is deployed to Azure Container Apps using GitHub Copilot for Azure. After identifying a LlamaIndex sample, the app is deployed with AZD, and Copilot helps resolve a configuration issue to ensure successful deployment.",
+          "feature": {
+            "imageUrl": "./images/rag-app-aca.jpg",
+            "url": "https://www.youtube.com/watch?v=jX1fa9r5gqE&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=12&pp=iAQB",
+            "title": "Deploy an AI RAG app to ACA using AZD",
+            "description": "Deploy RAG solutions with Container Apps."
+          }
+        }
+  ]
 }
