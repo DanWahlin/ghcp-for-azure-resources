@@ -1,0 +1,12 @@
+{
+  "name": "microsoft-cloud-integrations",
+  "version": "0.9.0",
+  "private": true,
+  "homepage": "https://microsoft.github.io/MicrosoftCloud",
+  "scripts": {
+    "deploy": "gh-pages -d public"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
