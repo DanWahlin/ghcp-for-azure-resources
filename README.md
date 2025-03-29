@@ -26,11 +26,3 @@ trademarks or logos is subject to and must follow
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
 
-## Deployment to GitHub Pages
-
-Enable GitHub Pages to use the `gh-pages` branch by going to `https://github.com/[org_name]/[repo_name]/settings/pages`
-
-Publish:
-
-1. `npm install`
-1. Build and deploy the project by running `npm run build-deploy`.

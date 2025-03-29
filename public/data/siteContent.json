@@ -62,7 +62,7 @@
             "url": "https://www.youtube.com/watch?v=OEJwzsWnLog&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=1&pp=iAQB",
             "type": "Video",
             "cloudCategories": ["Azure"],
-            "services": ["Azure Container Apps", "Azure AI Services"],
+            "services": ["Azure Container Apps", "Azure AI"],
             "technologies": ["Containers", "AI"],
             "description": "GitHub Copilot for Azure in VS Code assists in selecting the appropriate Azure service for deploying containers. It also provides deployment commands and sample projects that integrate Azure AI features for further customization and learning.",
             "feature": {
@@ -112,7 +112,7 @@
             "cloudCategories": ["Azure"],
             "services": ["App Service"],
             "technologies": ["Python", "Django"],
-            "description": "A Django application is deployed to Azure using GitHub Copilot for Azure in Visual Studio Code. The extension provides documentation, code changes, and terminal commands based on the project’s context, helping streamline the deployment process.",
+            "description": "A Django application is deployed to Azure using GitHub Copilot for Azure in VS Code. The extension provides documentation, code changes, and terminal commands based on the project’s context, helping streamline the deployment process.",
             "feature": {
               "imageUrl": "./images/deploy-with-context.jpg",
               "url": "https://www.youtube.com/watch?v=Wp336cdzE4Y&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=2&pp=iAQB",
@@ -126,7 +126,7 @@
             "url": "https://www.youtube.com/watch?v=j-yhG0y9ei4&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=3&pp=iAQB",
             "type": "Video",
             "cloudCategories": ["Azure"],
-            "services": ["Azure AI Services"],
+            "services": ["Azure AI"],
             "technologies": ["AI", "GPT-4o"],
             "description": "Azure AI Services are explored to manage and deploy models, including checking for existing GPT-4o deployments and deploying a new GPT-4o mini model. GitHub Copilot for Azure supports discovery and deployment steps throughout the process.",
             "feature": {
@@ -158,7 +158,7 @@
             "url": "https://www.youtube.com/watch?v=oMuBtlU5BcA&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=5&pp=iAQB",
             "type": "Video",
             "cloudCategories": ["Azure"],
-            "services": ["Azure SQL", "Database Migration Service"],
+            "services": ["Azure SQL"],
             "technologies": ["SQL Server"],
             "description": "A SQL Server migration to Azure is planned with GitHub Copilot for Azure, prioritizing compliance and minimal downtime. Copilot suggests services and tools, generates a migration plan, and assists in post-deployment validation.",
             "feature": {
@@ -206,7 +206,7 @@
             "url": "https://www.youtube.com/watch?v=BRPxGi--REU&list=PLlrxD0HtieHgdwrN6ooxApdfBKTJK7465&index=11&pp=iAQB0gcJCTgDd0p55Nqk",
             "type": "Video",
             "cloudCategories": ["Azure"],
-            "services": ["Azure Functions", "Azure OpenAI"],
+            "services": ["Azure Functions", "Azure AI"],
             "technologies": ["OpenAI", "API"],
             "description": "An API that generates AI-based poems is built using Azure Functions and Azure OpenAI, with GitHub Copilot for Azure guiding the resource creation, configuration, and deployment of a GPT-4 Mini model. The deployment is verified using local settings and Azure credentials.",
             "feature": {
